@@ -7,7 +7,6 @@ import (
 )
 
 func TestAdd(t *testing.T) {
-	t.Parallel()
 	var want float64 = 4
 	got := calculator.Add(2, 2)
 	if want != got {
